@@ -21,7 +21,7 @@ class Song
   end
   
   def self.genres
-    @@genres << genres unless @@genres.include?(genres)
+    @@genres << genre unless @@genres.include?(genre)
   end 
     
     def self.genre_count
