@@ -23,12 +23,12 @@ class Song
     
   @@artists = []
     
- def self.artist_count
+  def self.artist_count
    artist_count = {}
-    
+    @@artists 
   end
   
-   def initialize
+  def initialize
      @name = name
      @artist = artist 
      @@artist << artist
