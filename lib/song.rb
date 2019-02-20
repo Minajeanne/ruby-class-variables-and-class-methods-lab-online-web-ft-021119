@@ -16,8 +16,8 @@ class Song
   @@genres = []
   
   def initialize(genre)
-    @genre = genre
-    
+    @@genres = genre
+    @@genres << genre unless 
     
     self.genres 
     @@genres unless 
