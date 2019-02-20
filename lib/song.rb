@@ -19,7 +19,7 @@ class Song
     @@genres = genre
     @@genres << genre unless @@genres.inclue?(genre)
     
-    def self.genre 
+    #def self.genre 
       
   
   
