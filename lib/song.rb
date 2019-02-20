@@ -21,6 +21,10 @@ class Song
     end 
     
   @@artists = []
+  
+  def self.artists
+    @@artists.uniq
+  end
     
   def self.artist_count
    artist_count = {}
