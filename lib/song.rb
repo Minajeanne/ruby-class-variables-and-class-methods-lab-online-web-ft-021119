@@ -21,6 +21,8 @@ class Song
   
     end 
     
+  @@artists = []
+    
  # def self.artist_count
     
   #end
