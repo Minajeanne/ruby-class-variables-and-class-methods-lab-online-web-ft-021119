@@ -18,7 +18,7 @@ class Song
   def initialize(genre)
     @@genres = genre
     @@genres << genre unless @@genres.inclue?(genre)
-    
+  end 
     #def self.genre 
       
   
